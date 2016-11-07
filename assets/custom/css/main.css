@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body{
+    background-image: url(../../img/back1.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.home{
+    display: none;
+}
+
+.separador{
+    height: 10px; background-color: #af1717; margin: 15px 15px 0px 15px;
+}
+
+.stiki-button{
+    display: none;
+}
+
+.stiki-button i{
+    font-size: 1.6em;
+    width: 2.6em;
+    height: 2.6em;
+    text-align: center;
+    line-height: 2.6em;
+    background: #666;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #850103;
+    box-shadow: 1px 2px 5px #000;
+    position: absolute;
+    right: 5vh;
+    bottom: 3vh;
+    -webkit-transition: box-shadow 0.5s; /* Safari */
+    transition: box-shadow 0.5s;
+}
+.stiki-button i:hover{
+    box-shadow: 0px 0px 0px #000;
+}
+.footer{
+    position: absolute;
+    height: 0vh;
+    width: 100%;
+    bottom: 0;
+    background-color: #850103;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.footer i{
+    font-size: 5vh;
+    color: white;
+    margin: 5vh;
+    float: right;
+    display: none;
+}
+.form{
+    display: none;
+}
+.login-header img{
+    margin: 15px auto;
+    max-width: 400px;
+}
+.login-form, .register-form {
+    margin: 10px 30px;
+    background-color: white;
+    padding: 20px;
+}
+.form input{
+    margin-bottom: 10px;
+    border-radius: 0 !important;
+}
+.gridItem{
+    text-align: center;
+    padding-top: 15px;
+    min-height: 135px;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    color: white;
+    font-size: 5em;
+    text-shadow: 1px 1px black;
+    position: relative;
+    cursor: pointer;
+}
+.gridItemFooter{
+    font-size: 2rem;
+}
+.uno{
+    width: 45%;
+    float: left;
+    border: 1px solid #6a100a;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.52);
+}
+.uno:hover{
+    box-shadow: none;
+}
+.form .register-form {
+  display: none;
+}
+.response{
+    -webkit-transition: opacity 0.5s; /* Safari */
+    transition: opacity 0.5s;
+}
+
+.profile-icon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+margin: 2vh 0;
+}
+
+.img-profile{
+    max-height: 45vh;
+    margin: 0 auto;
+}
+.profile, .edit-profile{
+    margin-top: 2vh;
+    height: 98vh;
+}
+.edit-profile input{
+    margin-bottom: 2vh;
+    border-radius: 0;
+}
+
+#edit-profile, #guardar-edit-profile{
+    width: 100%; 
+    border-radius: 0;
+}
+
+#img-profile-edit{
+    max-width: 60%;
+    margin: 0 auto 2vh auto;
+    box-shadow: 5px 5px 5px #000000;
+    -webkit-transition: box-shadow 0.3s; /* Safari */
+    transition: box-shadow 0.3s;
+}
+#img-profile-edit:hover{
+    box-shadow: none;
+}
